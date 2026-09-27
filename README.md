@@ -41,3 +41,13 @@ Los tiempos, fuentes y colores específicos son decisiones de diseño de esta ve
 - Fondo de portada y cierre: imagen decorativa generada con ImageGen. Prompt en `IMAGE-PROMPT.md`.
 
 No se conecta con el sistema de reservas ni transmite datos de pasajeros.
+
+## Publicación
+
+- Presentación pública: https://tlr-slides.vercel.app/
+- Repositorio: https://github.com/mirkodgzconsulting/tlr-slides
+- Proyecto Vercel: https://vercel.com/jhonatan-dominguez-s-projects/tlr-slides
+
+Publicado mediante Vercel CLI. La conexión automática del repositorio fue rechazada por Vercel; hasta completar esa integración, publicar los cambios con `vercel deploy --prod --scope jhonatan-dominguez-s-projects`.
+
+El HTML conserva el contenido de la presentación incrustado. Para la web pública se añaden un favicon y una imagen Open Graph para la vista previa al compartir.
